@@ -55,10 +55,10 @@ Terminates the specified `tmux` session.
   ```
 
 ### 2. Switching Between Panes
-```bash
-tmux select-pane -[UDLR]
-```
-Where `U`, `D`, `L`, and `R` are the directions (Up, Down, Left, Right).
+
+Ctrl+b (wait 1 sec) then press left,right, up, down  
+
+
 
 ### 3. Resizing Panes
 ```bash
