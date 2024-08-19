@@ -1,3 +1,64 @@
+you need to learn tmux RIGHT NOW!!
+
+Create a new session and name it:
+
+tmux new -s chinmay
+
+
+Detatach from this session:
+
+(Ctrl + b)  (wait for a sec) -> d
+
+        - This session is not killed yet it is still active
+
+
+List all active tmux sessions:
+
+tmux ls
+
+Attach to a tmux command:
+
+tmux a
+
+Kill a session:
+
+tmux kill-session 
+        - This will kill the most active session
+
+tmux kill-session -t chinmay 
+        - This will kill the session named chinmay
+
+
+Kill all sessions at Once:
+
+tmux kill-server
+
+
+Create a new window:
+
+tmux new -t stacy
+
+
+
+Panes:
+
+Horizontally:
+
+(C-b) -> %(shift 5)
+
+
+Vertically:
+
+(C-b) - > "
+
+Another powerful way to move around is :
+
+(C-b) -> w
+![image](https://github.com/user-attachments/assets/8421bb6e-6a89-4e82-8518-f9dcdc1a36ce)
+
+
+
+
 
 # tmux Command Line Documentation
 
